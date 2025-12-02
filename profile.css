@@ -1,0 +1,41 @@
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.header {
+    background: #007bff;
+    color: white;
+    padding: 2rem 0;
+}
+
+.card {
+    margin-bottom: 1rem;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.no-image-profile {
+    width: 200px;
+    height: 200px;
+    background: #f8f9fa;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    margin: 0 auto;
+    border: 3px solid #007bff;
+}
